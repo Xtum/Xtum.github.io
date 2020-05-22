@@ -1,0 +1,106 @@
+var NumberOfWords = 86
+var words = new BuildArray(NumberOfWords)
+
+// Use the following variables to 
+// define your random words:
+words[1] = "https://shrinkurl.org/9GXRnJ8" 
+words[2] = "https://shrinkurl.org/JJe5xz" 
+words[3] = "https://shrinkurl.org/t55qMm" 
+words[4] = "https://shrinkurl.org/ZIlyP2" 
+words[5] = "https://shrinkurl.org/3MMs8Qv" 
+words[6] = "https://shrinkurl.org/RMUdQYH2" 
+words[7] = "https://shrinkurl.org/3VOIqNd" 
+words[8] = "https://shrinkurl.org/LnWY8U2" 
+words[9] = "https://shrinkurl.org/1VUU88Jo" 
+words[10] = "https://shrinkurl.org/GkmPHQ6H" 
+words[11] = "https://shrinkurl.org/az2odO" 
+words[12] = "https://shrinkurl.org/utN7M8pM" 
+words[13] = "https://shrinkurl.org/nrx584r2" 
+words[14] = "https://shrinkurl.org/omSxwgho" 
+words[15] = "https://shrinkurl.org/mgLXajfu" 
+words[16] = "https://shrinkurl.org/zPsD" 
+words[17] = "https://shrinkurl.org/IaVrrR4" 
+words[18] = "https://shrinkurl.org/riAy9i" 
+words[19] = "https://shrinkurl.org/sGuU90yb" 
+words[20] = "https://shrinkurl.org/GtVyZqae" 
+words[21] = "https://shrinkurl.org/sA3Fkp" 
+words[22] = "https://shrinkurl.org/w55xSe" 
+words[23] = "https://shrinkurl.org/p1DHb" 
+words[24] = "https://shrinkurl.org/DCQUCYf" 
+words[25] = "https://shrinkurl.org/VMha2hb" 
+words[26] = "https://shrinkurl.org/uFTK" 
+words[27] = "https://shrinkurl.org/oQyCM" 
+words[28] = "https://shrinkurl.org/Y7Ntogz" 
+words[29] = "https://shrinkurl.org/WuUFfVf4" 
+words[30] = "https://shrinkurl.org/o2EQ" 
+words[31] = "https://shrinkurl.org/cJyw1MeV" 
+words[32] = "https://shrinkurl.org/yytK1bL" 
+words[33] = "https://shrinkurl.org/QNmZHiF" 
+words[34] = "https://shrinkurl.org/TcpHNda" 
+words[35] = "https://shrinkurl.org/Qf13Lk" 
+words[36] = "https://shrinkurl.org/b5zn" 
+words[37] = "https://shrinkurl.org/kOik" 
+words[38] = "https://shrinkurl.org/zRyK" 
+words[39] = "https://shrinkurl.org/d60Ue" 
+words[40] = "https://shrinkurl.org/paAHF3uM" 
+words[41] = "https://shrinkurl.org/YIfw" 
+words[42] = "https://shrinkurl.org/b2tszuif" 
+words[43] = "https://shrinkurl.org/hy3iDEQT" 
+words[44] = "https://shrinkurl.org/jIYK" 
+words[45] = "https://shrinkurl.org/9O1FJp" 
+words[46] = "https://shrinkurl.org/JKtZNo" 
+words[47] = "https://shrinkurl.org/M2EeL" 
+words[48] = "https://shrinkurl.org/zbeDDT" 
+words[49] = "https://shrinkurl.org/vSYTH" 
+words[50] = "https://shrinkurl.org/DEvcn" 
+words[51] = "https://shrinkurl.org/NTKyKvkW" 
+words[52] = "https://shrinkurl.org/2VMCU14h" 
+words[53] = "https://shrinkurl.org/VVEens" 
+words[54] = "https://shrinkurl.org/r95A" 
+words[55] = "https://shrinkurl.org/mAA7p" 
+words[56] = "https://shrinkurl.org/NoqJ1Tr" 
+words[57] = "https://shrinkurl.org/h8isV3S" 
+words[58] = "https://shrinkurl.org/7cQrtst" 
+words[59] = "https://shrinkurl.org/OCssI" 
+words[60] = "https://shrinkurl.org/UxRLmSCH" 
+words[61] = "https://shrinkurl.org/0FIN" 
+words[62] = "https://shrinkurl.org/fWfas" 
+words[63] = "https://shrinkurl.org/kwntq" 
+words[64] = "https://shrinkurl.org/kqDpu" 
+words[65] = "https://shrinkurl.org/SqDt" 
+words[66] = "https://shrinkurl.org/JS0DzTFm" 
+words[67] = "https://shrinkurl.org/44xT" 
+words[68] = "https://shrinkurl.org/QRh5Ot" 
+words[69] = "https://shrinkurl.org/apZr3" 
+words[70] = "https://shrinkurl.org/yBCh" 
+words[71] = "https://shrinkurl.org/04DHtvyU" 
+words[72] = "https://shrinkurl.org/RT1n9gB" 
+words[73] = "https://shrinkurl.org/fX7x" 
+words[74] = "https://shrinkurl.org/eDozzx" 
+words[75] = "https://shrinkurl.org/xgNBm5" 
+words[76] = "https://shrinkurl.org/T7VwwhMg" 
+words[77] = "https://shrinkurl.org/9y506S" 
+words[78] = "https://shrinkurl.org/7gI4a" 
+words[79] = "https://shrinkurl.org/FgN9d" 
+words[80] = "https://shrinkurl.org/TLiJH" 
+words[81] = "https://shrinkurl.org/L9nER" 
+words[82] = "https://shrinkurl.org/aoWLm8" 
+words[83] = "https://shrinkurl.org/oCTaGMLF" 
+words[84] = "https://shrinkurl.org/nUq6DCd" 
+words[85] = "https://shrinkurl.org/GJEvx" 
+words[86] = "https://shrinkurl.org/u3eXGV" 
+
+function BuildArray(size){
+this.length = size
+for (var i = 1; i <= size; i++){
+this[i] = null}
+return this
+}
+
+function PickRandomWord(frm) {
+// Generate a random number between 1 and NumberOfWords
+var rnd = Math.ceil(Math.random() * NumberOfWords)
+
+// Display the word inside the text box
+frm.WordBox.value = words[rnd]
+}
